@@ -950,6 +950,21 @@ textarea {
 }
 
 /*== Contact Section =====================*/
+.ct {
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.form-info::before {
+  position: absolute;
+  top: -31px;
+  left: -31px;
+  z-index: -1;
+  width: 75%;
+  height: 100%;
+  content: "";
+  background-image:  url('../img/dots-small.svg');
+}
 .desk-width h2 {
   padding-top: 1rem;
 }
@@ -969,11 +984,13 @@ section.form-info {
   opacity: 1;
 }
 
+/*
 #contact {
   position: relative;
   overflow: hidden;
   background-image: url('../img/dots-small.svg');
 }
+*/
 
 #conatiner-map {
   margin-top: 30px;
@@ -1022,6 +1039,8 @@ section.form-info {
   margin: 0;
 }
 
-.copyright p a {
-  color: #fff;
+  .copyright p a {
+    color: #fff;
+  }
+
 }
