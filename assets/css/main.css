@@ -1,18 +1,52 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
-/* 
-New Color Scheme
- #3C493F - darkest green
- #7E8D85 - lighter green
- #B3BFB8 - ash grey
- #F0F7F4 - off-white
- #A2E3C4 - sea foam green (feature section)
+/* Icons */
+.icon-grid {
+  /*
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.devicon-debian-plain.colored {
+  font-size: 32pt;
+}
+.devicon-apache-line.colored {
+  font-size: 42pt;
+}
+.devicon-mysql-plain-wordmark.colored {
+  font-size: 42pt;
+}
+.devicon-php-plain.colored {
+  font-size: 42pt;
+}
+.devicon-html5-plain-wordmark.colored{
+  font-size: 32pt;
+}
+.devicon-css3-plain-wordmark.colored{
+  font-size: 32pt;
+}
+.devicon-javascript-plain.colored{
+  font-size: 32pt;
+}
+.devicon-bootstrap-plain.colored {
+  font-size: 32pt;
+}
+.py-logo {
+  width: 50px;
+}
+.ajax-logo {
+  width: 100px;
+}
 
 
- Blue replacements
- #4D7EA8 
- #1F7A8C
+.underline {
+  border-bottom: solid #252527 1px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
 
-*/
 html {
   overflow-x: hidden;
 }
@@ -58,7 +92,7 @@ p {
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 16.5px;
 }
 
 ul, ol {
@@ -73,6 +107,10 @@ ul li, ol li {
 
 a:not([href]):not([tabindex]) {
   color: #fff;
+}
+
+#feature {
+  margin-top: 2rem;
 }
 
 .section-header {
