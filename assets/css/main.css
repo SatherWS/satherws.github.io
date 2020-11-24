@@ -544,10 +544,6 @@ Features/About Section
   cursor: pointer;
 }
 
-.top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #1f7a8c !important;
-}
-
 .indigo {
   background: transparent;
 }
@@ -581,10 +577,6 @@ Features/About Section
 .navbar {
   padding: 0;
   font-size: 12pt;
-}
-
-.navbar li.active a.nav-link {
-  color: #1f7a8c;
 }
 
 .menu-white .navbar-nav .nav-link {
