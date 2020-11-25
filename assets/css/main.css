@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
-/* Icons */
+/* Icons (possibly remove)*/
 .icon-grid {
   /*
   display: grid;
@@ -9,28 +9,28 @@
   justify-content: space-between;
   align-items: center;
 }
-.devicon-debian-plain.colored {
+.devicon-debian-plain {
   font-size: 32pt;
 }
-.devicon-apache-line.colored {
+.devicon-apache-line {
   font-size: 42pt;
 }
-.devicon-mysql-plain-wordmark.colored {
+.devicon-mysql-plain-wordmark {
   font-size: 52pt;
 }
-.devicon-php-plain.colored {
+.devicon-php-plain {
   font-size: 42pt;
 }
-.devicon-html5-plain-wordmark.colored{
+.devicon-html5-plain-wordmark{
   font-size: 32pt;
 }
-.devicon-css3-plain-wordmark.colored{
+.devicon-css3-plain-wordmark{
   font-size: 32pt;
 }
-.devicon-javascript-plain.colored{
+.devicon-javascript-plain{
   font-size: 32pt;
 }
-.devicon-bootstrap-plain.colored {
+.devicon-bootstrap-plain {
   font-size: 32pt;
 }
 .py-logo {
@@ -40,6 +40,19 @@
   width: 100px;
 }
 
+.custom-tabs {
+  border-top: solid #fff 1px;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.custom-tabs a {
+  color: #fff;
+}
 
 .underline {
   border-bottom: solid #252527 1px;
@@ -805,13 +818,14 @@ animation: move-wave 3s;
 
 .container.spc {
   text-align: center;
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.35);
   color: #fff;
   padding: 2rem 0;
   background-image: url("../img/iso-ui.jpg");
   background-position-x: 20%;
   border-radius: 4px;
 }
+
 #pricing {
   text-align: center;
   padding: 3rem 0;
