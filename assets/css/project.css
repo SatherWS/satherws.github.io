@@ -1,0 +1,10 @@
+.project-header {
+    background: #252527;
+    height: 50vh!important;
+}
+
+.content-area {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}

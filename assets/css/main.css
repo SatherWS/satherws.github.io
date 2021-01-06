@@ -445,12 +445,12 @@ Services Section
   background: #252527;
   color: #fff;
 }
-.fa-comment-o {
+.fa-server {
   font-size: 35pt;
   content:"\f27b";
   margin-bottom: .7rem;
 }
-.fa-connectdevelop {
+.fa-code {
   margin-bottom: .7rem;
   font-size: 35pt;
   content:"\f20e";
