@@ -7,7 +7,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 2px solid #252527;
+    border: 2px solid #d8d4d4;
     margin-left: -9px;
 }
 
@@ -21,7 +21,7 @@
 .cid-s7SZ0UvBBv .row:after {
     content: "";
     position: absolute;
-    background-color: #252527;
+    background-color: #d8d4d4;
     width: 2px;
 }
 

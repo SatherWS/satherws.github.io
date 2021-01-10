@@ -66,7 +66,7 @@
 }
 
 .underline {
-  border-bottom: solid #252527 1px;
+  border-bottom: solid #d8d4d4 1px;
   padding-top: 10px;
   margin-bottom: 10px;
 }
@@ -472,7 +472,7 @@ Services Section
 	pointer-events: none;
 }
 .modalDialog h3 {
-    color: #fff;
+  color: #fff;
 }
 
 .modalDialog:target {
@@ -490,12 +490,15 @@ Services Section
 /*=====================================
 Features/About Section
 =====================================*/
-
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
 
 .text-wrapper {
   height: 100%;
   display: table;
-  width: 50%;
+  width: 45%;
   padding-top: 1rem;
   margin: 0 auto;
   background: #212224;
@@ -742,9 +745,10 @@ Features/About Section
 }
 .center-panel p {
   padding-top: 1.5rem;
-  max-width: 30rem;
+  max-width: 40rem;
   margin: 0 auto;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 .right-head {
@@ -778,7 +782,7 @@ Features/About Section
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #1bf467 2%, #252527 10%);
+  background-image: linear-gradient(to top, #1bf467 2%, #181818 10%);
 }
 
 .bgMiddle {
