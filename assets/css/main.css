@@ -5,6 +5,12 @@
   grid-column-gap: 10px;
 }
 
+.project-href {
+  margin-bottom: 1rem;
+}
+.project-href a {
+  color: #0489d1!important;
+}
 /* Icons (possibly remove)*/
 .icon-grid {
   /*
@@ -958,6 +964,7 @@ animation: move-wave 3s;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
 }
 /*Project Icons*/
+
 .fa.fa-bar-chart {
   font-size: 55pt;
   margin: auto 0;
