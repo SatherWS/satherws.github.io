@@ -61,10 +61,6 @@
   color: #252527;
 }
 
-:target {
-  border-bottom: solid #212527 3px;
-}
-
 .underline {
   border-bottom: solid #d8d4d4 1px;
   padding-top: 10px;
