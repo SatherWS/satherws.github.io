@@ -615,6 +615,7 @@ Features/About Section
   padding: 0;
   font-size: 12pt;
   background: #181818 !important;
+  z-index: 100;
 }
 
 .menu-white .navbar-nav .nav-link {
@@ -719,7 +720,6 @@ Features/About Section
 ========================================================================== */
 #hero-area {
   overflow: hidden;
-  position: relative;
   width: 100%;
   height: 100vh;
   color: #ffffff;

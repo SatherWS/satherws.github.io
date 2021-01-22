@@ -162,6 +162,12 @@
     .text-wrapper {
       padding: 60px 15px;
     }
+    .text-wrapper {
+      width: 75%;
+    }
+    .timeline-header {
+      margin-top: 1.65rem;
+    }
     #about .sec-title h3 {
       font-size: 22px;
       line-height: 36px;
