@@ -90,6 +90,9 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4 {
