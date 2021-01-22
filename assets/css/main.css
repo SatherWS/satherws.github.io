@@ -614,6 +614,7 @@ Features/About Section
 .navbar {
   padding: 0;
   font-size: 12pt;
+  background: #181818 !important;
 }
 
 .menu-white .navbar-nav .nav-link {
