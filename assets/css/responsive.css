@@ -168,6 +168,11 @@
     .cid-s7SZ0UvBBv .iconBackground {
       display: none;
     }
+    
+    .mobile-hide {
+      display: none;
+    }
+
     .timeline-header {
       margin-top: 1.65rem;
     }

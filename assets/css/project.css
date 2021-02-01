@@ -8,3 +8,14 @@
     margin: 0 auto;
     padding-top: 1.5rem;
 }
+
+@media (max-width: 767px) {
+    /* move to project.css*/
+    .project-header {
+        height: 100vh!important;
+    }
+    .content-area {
+        width: 90%;
+    }
+
+}
