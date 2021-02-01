@@ -414,10 +414,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 /*=====================================
 Services Section
 =====================================*/
-#services {
-  padding: 4rem 0;
-  
-}
 .u-line {
   border-bottom:5px solid #27273c;
   width: 50px;
@@ -780,6 +776,7 @@ Features/About Section
   height: 100%;
   bottom: -1px;
   background-image: linear-gradient(to top, #1bf467 2%, #181818 10%);
+  overflow-x: hidden; /* may cause scrolling issue */
 }
 
 .bgMiddle {
@@ -830,6 +827,9 @@ animation: move-wave 3s;
   .row.equal {
     display: flex;
     flex-wrap: wrap;
+  }
+  .bio-info {
+    padding
   }
 }
 
