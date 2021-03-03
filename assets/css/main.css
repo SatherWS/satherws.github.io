@@ -249,7 +249,7 @@ a:not([href]):not([tabindex]) {
 .btn-lg {
   padding: 10px 33px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 .btn-rm {
@@ -731,10 +731,9 @@ Features/About Section
 }
 #hero-area .head-title {
   text-transform: uppercase;
-  font-size: 4.0rem;
+  font-size: 4.25rem;
   line-height: 48px;
   font-weight: 700;
- 
 }
 .header-button {
   padding-top: 1.5rem;
@@ -743,8 +742,8 @@ Features/About Section
   padding-top: 1.5rem;
   max-width: 40rem;
   margin: 0 auto;
-  font-size: 1.75rem;
-  line-height: 2rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .right-head {
@@ -827,9 +826,6 @@ animation: move-wave 3s;
   .row.equal {
     display: flex;
     flex-wrap: wrap;
-  }
-  .bio-info {
-    padding
   }
 }
 
