@@ -381,12 +381,13 @@ function fixedWorstFit(partitions, jobs) {
 
 /* Dynamic partition algorithms section start */
 
+/*
 function dynamicFirstFit(partitions, jobs) {
     var outputPage = document.getElementById("dynamic-area");
     var h3 = document.createElement("H3");
     h3.innerHTML = "First Fit Results | Dynamic Partitions";
-    var 
-    var allocations = [], busy = [];
+    var allocations = [];
+    var busy = [];
     var fragmentation = 0;
     for (var i = 0; i < partitions.length; i++) { 
         allocations[i] = partitions[i]; 
@@ -632,3 +633,4 @@ function dynamicWorstFit(partitions, jobs) {
     $("<br /> <p>Total Fragmentation: " + fragmentation + "</p><br />").appendTo(outputPage);
     $("<hr><br />").appendTo(outputPage);
 }
+*/
