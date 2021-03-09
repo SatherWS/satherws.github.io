@@ -725,7 +725,6 @@ Features/About Section
   transform: translate(-50%,-50%);
   top: 50%;
   left: 50%;
-  text-align: center;
   width: 100%;
   z-index: 100;
 }
@@ -738,7 +737,7 @@ Features/About Section
 .header-button {
   padding-top: 1.5rem;
 }
-.center-panel p {
+.center-panel {
   padding-top: 1.5rem;
   max-width: 40rem;
   margin: 0 auto;
