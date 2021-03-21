@@ -82,9 +82,6 @@ body {
   font-size: 19px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  line-height: 25px;
-  overflow-x: hidden;
-  overflow-y: auto;
   height: 100%;
   width: 100%;
 }
@@ -605,11 +602,11 @@ Features/About Section
   padding: 0;
   font-size: 12pt;
   background: #181818 !important;
-  z-index: 100;
+  z-index: 200;
 }
 
 .menu-white .navbar-nav .nav-link {
-  color: #373432;
+  color: #181818;
 }
 
 .dropdown-toggle::after {
@@ -727,6 +724,11 @@ Features/About Section
   left: 50%;
   width: 100%;
   z-index: 100;
+  padding-top: 1.5rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 #hero-area .head-title {
   text-transform: uppercase;
@@ -736,13 +738,6 @@ Features/About Section
 }
 .header-button {
   padding-top: 1.5rem;
-}
-.center-panel {
-  padding-top: 1.5rem;
-  max-width: 40rem;
-  margin: 0 auto;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .right-head {
