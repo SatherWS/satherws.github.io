@@ -10,7 +10,6 @@
 }
 
 @media (max-width: 767px) {
-    /* move to project.css*/
     .project-header {
         height: 100vh!important;
     }

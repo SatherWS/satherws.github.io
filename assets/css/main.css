@@ -417,10 +417,10 @@ Services Section
 }
 .serve-desc {
   padding-top:1rem;
-  max-width: 480px;
+  max-width: 580px;
 }
 .somespc {
-  max-width: 480px;
+  max-width: 580px;
   padding-top:.5rem;
   padding-bottom: 1rem;
 }
@@ -434,7 +434,7 @@ Services Section
   box-shadow: 10px 20px 30px 10px rgba(0, 0, 0, 0.08);
 }
 .dev-color {
-  background: #252527;
+  background: #181818;
   color: #fff;
 }
 .fa-server {
@@ -736,10 +736,15 @@ Features/About Section
   line-height: 48px;
   font-weight: 700;
 }
-.header-button {
-  padding-top: 1.5rem;
+button.form-control.btn.btn-common.header-button {
+  background: transparent;
 }
-
+.form-control {
+  margin-bottom: 20px!important;
+}
+.contact-inputs {
+  padding: 0 1rem;
+}
 .right-head {
   padding-left: 0px;
 }
