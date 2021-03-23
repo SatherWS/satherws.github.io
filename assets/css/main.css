@@ -196,6 +196,21 @@ a:not([href]):not([tabindex]) {
   text-transform: uppercase;
 } 
 
+.btn-lg {
+  padding: 10px 33px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  gap: 10px
+}
+
 .btn-common2 {
   background-color: #373432;
   position: relative;
@@ -241,12 +256,6 @@ a:not([href]):not([tabindex]) {
   color: #fff;
   border-color: #0489d1;
   background-color: #0489d1;
-}
-
-.btn-lg {
-  padding: 10px 33px;
-  text-transform: uppercase;
-  font-size: 1.5rem;
 }
 
 .btn-rm {
@@ -454,7 +463,8 @@ Services Section
 	right: 0;
 	bottom: 0;
 	left: 0;
-  background-color: rgba(0,0,0,0.5);
+
+    background-color: rgba(0,0,0,0.5);
 	z-index: 99999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
@@ -704,6 +714,10 @@ Features/About Section
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
+.lrg-text {
+  font-size: 3rem;
+}
+
 #hero-area {
   overflow: hidden;
   width: 100%;

@@ -33,6 +33,7 @@
   #pricing-table .title h3 {
     font-size: 14px;
   }
+  .btn-container { display: block!important;}
 }
 
 /* small tablets / large mobile devices */
@@ -140,6 +141,7 @@
     font-size: 18px;
     text-align: center!important;
   }
+  /*
   .center-panel {
     padding-left: 15px;
     left: 50%!important;
@@ -148,6 +150,13 @@
     position: absolute;
     transform: translate(-50%,-50%);
   }
+  */
+  .center-panel {
+    max-width: 20rem!important;
+    text-align: center!important;
+  }
+  .btn-container {margin: 0 auto;}
+  
   #hero-area .contents .header-button  {
     text-align: center;
   }
@@ -221,6 +230,9 @@
   }
   .call-section-padding {
     padding: 0;
+  }
+  .footer-area .footer-titel {
+    margin-top: 30px;
   }
   .contact-right-area {
     margin: 20px 0;
