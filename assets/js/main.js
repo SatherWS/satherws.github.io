@@ -6,9 +6,10 @@
 
   /*Page Loader active
   ========================================================*/
-  $('#preloader').fadeOut();
+  // Not necessary until we have dynamic content
+  //$('#preloader').fadeOut();
 
-  // Sticky Nav
+  // Sticky Nav [not in use, since nav isn't sticky]
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
             $('.scrolling-navbar').addClass('top-nav-collapse');
