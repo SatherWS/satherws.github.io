@@ -60,9 +60,6 @@
   .title-hl {
     font-size: 30px;
   }
-  .text-wrapper {
-    padding: 60px 30px;
-  }
   .why .content h3 {
     font-size: 30px;
   }
@@ -158,7 +155,7 @@
     padding: 0;
   }
   #services {
-    margin-top: 2rem;
+    margin-top: 6rem;
   }
   .text-wrapper {
     width: 85%!important;

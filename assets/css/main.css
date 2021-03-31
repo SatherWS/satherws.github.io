@@ -608,6 +608,8 @@ Features/About Section
   font-size: 12pt;
   background: #181818 !important;
   z-index: 200;
+  width: 100%;
+  position: fixed;
 }
 
 .menu-white .navbar-nav .nav-link {
