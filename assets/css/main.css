@@ -416,6 +416,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 /*=====================================
 Services Section
 =====================================*/
+.about-spacing {
+  padding: 3.5rem 0;
+}
 .u-line {
   border-bottom:5px solid #27273c;
   width: 50px;
