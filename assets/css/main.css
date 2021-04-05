@@ -852,7 +852,7 @@ animation: move-wave 3s;
   background-color: rgba(0,0,0,0.35);
   color: #fff;
   padding: 2rem 0;
-  background-image: url("../img/iso-ui.jpg");
+  background-image: url("../imgages/iso-ui.jpg");
   background-position-x: 20%;
   border-radius: 4px;
 }
