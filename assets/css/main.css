@@ -735,10 +735,13 @@ Features/About Section
   width: 100%;
   z-index: 100;
   padding-top: 1.5rem;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: 0 auto;
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.head-desc h1 {
+  font-size: 38pt;
 }
 .head-desc ul li {
   list-style: circle!important;
