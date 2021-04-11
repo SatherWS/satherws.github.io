@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Assignment 2 | Memory Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-area">
+        <div class="inputs">
+            <input type="text" id="p_sizes" placeholder="Enter sizes of the fixed partitions">
+            <input type="number" id="d_size" placeholder="Enter size of the dynamic partion" min=1>
+            <input required id="j_sizes" type="text" placeholder="Enter size of the jobs">
+        </div>
+        <div>
+            <input type="hidden" name="scheme" id="scheme_input" value="Fixed">
+            <input type="checkbox" id="switch" class="checkbox" /> 
+            <label onclick="changeScheme()" for="switch" class="toggle"> </label> 
+            <p id="scheme">Fixed</p>
+        </div>
+    </div>
+
+    <div class="flex-area radio-area">
+        <section>
+            <label>First Fit</label>
+            <input type="radio" name="alg1" value="first-fit" checked>
+        </section>
+        <section>
+            <label>Best Fit</label>
+            <input type="radio" name="alg1" value="best-fit">
+        </section>    
+        <section>
+            <label>Next Fit</label>
+            <input type="radio" name="alg1" value="next-fit">
+        </section>
+        <section>
+            <label>Worst Fit</label>
+            <input type="radio" name="alg1" value="worst-fit">
+        </section>
+    </div>
+    <br> 
+    <button onclick="addSlots()">Run Simulation</button>
+    <button onclick="clearSlots()">Clear Simulation</button>
+    <br></br>
+
+    <div class="flex-area">
+        <div id="partitions"></div>
+        <div id="jobs"></div>
+    </div>
+
+    <br></br>
+    <div id="fixed-area"></div>
+    <div id="output-head"></div>
+    <div id="dynamic-area">
+        <div class="flex-area">
+            <div id="before-request"></div>
+            <div id="after-request"></div>
+        </div>
+    </div>
+    
+    <div id="results2">
+        <div>
+            <p>Before Request</p>
+            <table width="100%">
+                <colgroup>
+                    <col span="1" style="width: 50%;">
+                    <col span="1" style="width: 50%;">
+                </colgroup>
+                <tr>
+                    <th>Beginning Address</th>
+                    <th>Memory Block Size</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>After Request</p>
+            <table width="100%">
+                <colgroup>
+                    <col span="1" style="width: 50%;">
+                    <col span="1" style="width: 50%;">
+                </colgroup>
+                <tr>
+                    <th>Beginning Address</th>
+                    <th>Memory Block Size</th>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="results_ff"></div>
+
+    <script src="controls.js"></script>
+    <script src="algorithms.js"></script>
+</body>
+</html>
