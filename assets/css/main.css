@@ -560,7 +560,7 @@ Features/About Section
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  background: #181818 !important;
+  background: #0b0e11 !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -609,7 +609,7 @@ Features/About Section
 .navbar {
   padding: 0;
   font-size: 12pt;
-  background: #181818 !important;
+  background: #0b0e11 !important;
   z-index: 200;
   width: 100%;
   position: fixed;
@@ -795,7 +795,7 @@ button.form-control.btn.btn-common.header-button {
   width: 100%;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #1bf467 2%, #181818 10%);
+  background-image: linear-gradient(to top, #1bf467 2%, #0b0e11 10%);
   overflow-x: hidden; /* may cause scrolling issue */
 }
 
