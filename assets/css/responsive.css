@@ -98,7 +98,7 @@
 
 @media (max-width: 767px) {
   .navbar-collapse {
-    background: #181818;
+    background: #0b0e11;
   }
   .section-padding {
     padding: 50px 0;
@@ -227,6 +227,15 @@
   }
   .copyright .float-right {
     float: left !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 16pt!important;
+  }
+  .head-desc h1 {
+    font-size: 28pt!important;	
   }
 }
 

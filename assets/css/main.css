@@ -269,6 +269,12 @@ button:focus {
 .call-link {
   position: relative;
 }
+.video-link {
+  color: #0489d1!important;
+}
+.video-link-container {
+  margin: 1.5rem 0;
+}
 .call-icon {
   position: absolute;
   left: 0;
@@ -450,7 +456,7 @@ Services Section
   content:"\f27b";
   margin-bottom: .7rem;
 }
-.fa-code {
+.fa-github {
   margin-bottom: .7rem;
   font-size: 35pt;
   content:"\f20e";
@@ -540,7 +546,7 @@ Features/About Section
 }
 
 .logo {
-  margin: 0!important;
+  margin: 1rem!important;
 }
 
 .navbar-brand {
