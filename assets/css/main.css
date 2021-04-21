@@ -316,7 +316,7 @@ button:focus {
 }
 
 .social-icon .freelance {
-  background: #ed7c23;
+  background: #2ebc4f;
 }
 
 .social-icon .git {
@@ -325,6 +325,10 @@ button:focus {
 
 .social-icon .linkedin {
   background: #1260A2;
+}
+
+i.fa.fa-angle-double-right {
+  font-size: 22px;
 }
 
 /* ScrollToTop */
@@ -618,7 +622,7 @@ Features/About Section
   background: #0b0e11 !important;
   z-index: 200;
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
 }
 
 .menu-white .navbar-nav .nav-link {
@@ -1011,7 +1015,9 @@ animation: move-wave 3s;
 /*=====================================
 Special Projects Partial Section
 =====================================*/
-
+.align-center {
+  align-items: center;
+}
 
 .form-control {
   width: 100%;

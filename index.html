@@ -20,14 +20,14 @@
 <body>
   <!-- Brand and toggle get grouped for better mobile display -->
   <nav class="navbar navbar-expand-md">
-    <div class="container">
+    <div class="container nav-max">
         <div class="col-md-6">
           <a href="index.html" class="navbar-brand"> 
             <h1 class="logo">Colin Sather</h1>
           </a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" 
           	data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" 
-	  	aria-label="Toggle navigation">
+	  	      aria-label="Toggle navigation">
           	<i class="fa fa-bars"></i>
           </button>
         </div>
@@ -74,14 +74,20 @@
         <div class="head-desc">
           <h1>Full stack software developer with a background in IT infastructure.</h1>
           <ul>
-              <li><a href="#feature">Click here to see some projects I've worked on</a></li>
+            <li><a href="#feature">Click here to see some projects I've worked on</a></li>
           </ul>
+          <form name="search" action="cgi-bin/test.py" method="get">
+            Search: <input type="text" name="searchbox">
+            <input type="submit" value="Submit">
+          </form>
+          <br> 
           <div class="header-button">
             <a href="files/Sather_Resume_2021.pdf" target="_blank" class="btn btn-common btn-lg">View Resume</a>
           </div>
       </div>
     </div>
   </div>
+
   <!-- Landing page animation-->
   <div class="waveWrapper waveAnimation">
     <div class="waveWrapperInner bgMiddle">
@@ -91,6 +97,8 @@
       <div class="wave waveBottom" style="background-image: url('./assets/images/wave-bot.png')"></div>
     </div>
   </div>
+  <!-- Landing page end -->
+
   <!-- Intro/about me section -->
   <div id="services" class="container">
     <div class="row vertical-center about-spacing">
@@ -104,7 +112,7 @@
 
         <p class="somespc">
           I have a bachelor’s of science in computer science from Stockton University and 
-	  I have been creating various software applications 
+	        I have been creating various software applications 
           for several years.
         </p>
       </div>
@@ -115,7 +123,9 @@
         </div>
       </div>
     </div>
+  </div>
 
+  <!-- Portfolio Intro Section -->
   <div id="feature">
     <div class="container spc">
         <div class="text-center">
@@ -125,13 +135,122 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
  
   <!-- Portfolio Summary Section -->
   <section class="timeline3 cid-s7SZ0UvBBv" id="timeline3-2">
     <div class="container mt-4">
       <div class="timelines-container">
+        <!-- NEW DESIGN FOR PAGINATION TODO add class 'align-center' to each project row (projects 1 & 2 only) -->
+          
+          <!-- 1. SCTMS Project and Content Management System -->
+          <div class="row timeline-element first-separline mb-5 align-center">
+            <div class="timeline-date col-12">
+                <div class="timeline-date-wrapper">
+                </div>
+            </div>
+            <span class="iconBackground"></span>
+            <div class="col-12 col-md-6">
+              <div class="timeline-text-wrapper">
+                  <h4 class="title-hl mb-4">
+                    <strong>SCTMS Project &amp; Content Management System</strong>
+                  </h4>
+                  <p class="timeline-header">
+                    <b>PROJECT DESCRIPTION</b>
+                  </p>  
+                  <section class="underline"></section>
+                  <p class="mbr-text mbr-fonts-style display-7">A productivity and project management web application platform. 
+                    The purpose of this platform is to provide users with an intuitive system for managing, 
+                    sharing and organizing tasks and or project notes.</p>
+                  <div class="video-link-container">
+                    <a class="video-link" href="pages/sctms.html" onclick="alert('Video demo comming soon')">
+                      Read more here
+                      <i class="fa fa-angle-double-right"></i>
+                    </a>
+                  </div>
+                    
+                  <!--
+                  <br>
+                  <a href="swoop.html">
+                    <button class="btn btn-common2 form-control">Read More</button>
+                  </a>
+                  -->
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                  <div class="image-wrapper">
+                      <a href="assets/images/multi-device-template-edit.jpeg">
+                        <img src="assets/images/multi-device-template-edit.jpeg" title="">
+                      </a><div class="project-href">
+                        <a href="#" onclick="alert('Source code will be available soon')">
+                          View this project's source code
+                        </a>
+                      </div>
+                      <div class="project-href">
+                        <a href="https://swoop.team" target="_blank">
+                          Visit the live website
+                        </a>
+                      </div>
+                      
+  
+                  </div>
+              </div>
+              
+          </div>
+          <!-- 2. Lifeline Assistant Senior Capstone Project -->
+          <div class="row timeline-element first-separline mb-5 align-center">
+            <div class="timeline-date col-12">
+                <div class="timeline-date-wrapper">
+                </div>
+            </div>
+            <span class="iconBackground"></span>
+            <div class="col-12 col-md-6">
+                <div class="timeline-text-wrapper">
+                  <h4 class="title-hl mb-4">
+                    <strong>Lifeline Assistant Senior Capstone Project</strong>
+                  </h4><p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
+                  <section class="underline"></section>
+                  <p class="mbr-text mbr-fonts-style display-7">Assurance Wireless needed a better system for tracking 
+                    who has been accepted or denied for their free services. 
+                    Features include a lifeline application processing console, 
+                    a customer support chatroom and GPS API integrations.</p>
+                  <div class="video-link-container">
+                    <a class="video-link" href="pages/lifeline-assistant.html">
+                      Read more here
+                      <i class="fa fa-angle-double-right"></i>
+                    </a>
+                  </div>
+                    <!--
+                    <br>
+                    <a href="/assurance.html">
+                      <button class="btn btn-common2 form-control">Read More</button>
+                    </a>
+                    -->
+                  </div>
+                </div><div class="col-12 col-md-6">
+                  <div class="image-wrapper">
+                      
+                        <a href="assets/images/aw_tablet_view.png">
+                          <img src="assets/images/aw_tablet_view.png" alt="Mobirise" title="">
+                        </a>
+                        <br>
+                        <div class="project-href">
+                          <a href="https://github.com/ColinSather/Assurance_Wireless" target="_blank">
+                            View this project's source code
+                          </a>
+                        </div>
+                        <div class="project-href">
+                          <a href="http://flask-env.eba-rnr2hxxx.us-east-2.elasticbeanstalk.com/logout" target="_blank">
+                            Visit the live website
+                          </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+      <!-- OLD DESIGN START -->
         <!-- 1. SCTMS Project and Content Management System -->
         <div class="row timeline-element first-separline mb-5">
             <div class="timeline-date col-12">
@@ -142,8 +261,8 @@
             <div class="col-12 col-md-6">
                 <div class="image-wrapper">
                     <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-			<strong>SCTMS Project & Content Management System</strong>
-		    </h4>
+			                <strong>SCTMS Project & Content Management System</strong>
+		                </h4>
                     <div class="project-href">
                       <a href="#" onclick="alert('Source code will be available soon')">
                         View this project's source code
@@ -157,7 +276,6 @@
                     <a href="assets/images/multi-device-template-edit.jpeg">
                       <img src="assets/images/multi-device-template-edit.jpeg" title="">
                     </a>
-                    
                 </div>
             </div>
             <div class="col-12 col-md-6">
@@ -167,9 +285,9 @@
                   <p class="mbr-text mbr-fonts-style display-7">A productivity and project management web application platform. 
                     The purpose of this platform is to provide users with an intuitive system for managing, 
                     sharing and organizing tasks and or project notes.</p>
-		  <div class="video-link-container">
-			<a class="video-link" href="#" onclick="alert('Video demo comming soon')">Watch the video demo</a>
-		  </div>
+                  <div class="video-link-container">
+                    <a class="video-link" href="files/videos/test.mp4">Read more here</a>
+                  </div>
                   <p><b>BACKEND TECHNOLOGIES USED</b></p>
                   <section class="underline"></section>
                   <p>Debian Version: 10.5</p>
@@ -191,6 +309,7 @@
               </div>
             </div>
         </div>
+
         <!-- 2. Lifeline Assistant Senior Capstone Project -->
         <div class="row timeline-element first-separline mb-5">
             <div class="timeline-date col-12">
@@ -201,8 +320,8 @@
             <div class="col-12 col-md-6">
               <div class="image-wrapper">
                   <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-			<strong>Lifeline Assistant Senior Capstone Project</strong>
-		   </h4>
+                    <strong>Lifeline Assistant Senior Capstone Project</strong>
+                  </h4>
                     <div class="project-href">
                       <a href="https://github.com/ColinSather/Assurance_Wireless" target="_blank">
                         View this project's source code
@@ -248,6 +367,7 @@
                   </div>
             </div>
         </div>
+
         <!-- 3. Charity Club Portal Web Application -->
         <div class="row timeline-element first-separline mb-5">
           <div class="timeline-date col-12">
@@ -258,7 +378,8 @@
           <div class="col-12 col-md-6">
             <div class="image-wrapper">
                   <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-                  <strong>Circle K Charity Club Portal Web Application</strong></h4>
+                    <strong>Circle K Charity Club Portal Web Application</strong>
+                  </h4>
                   <div class="project-href">
                     <a href="https://github.com/ColinSather/Computer_Society" target="_blank">
                       View this project's source code
@@ -307,6 +428,7 @@
             </div>
           </div>
         </div>
+
         <!-- 4. Stockton Computer Science Club Web Application -->
         <div class="row timeline-element first-separline mb-5">
             <div class="timeline-date col-12">
@@ -320,7 +442,8 @@
             <div class="col-12 col-md-6">
               <div class="image-wrapper">
                     <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-                    <strong>Stockton Computer Science Club Web Application</strong></h4>
+                      <strong>Stockton Computer Science Club Web Application</strong>
+                    </h4>
                     <div class="project-href">
                       <a href="https://github.com/ColinSather/Computer_Society" target="_blank">
                         View this project's source code
@@ -365,13 +488,15 @@
               </div>
             </div>
         </div>
+
         <!-- 5. Various Stockton Programming Assignments -->
         <div class="row timeline-element first-separline mb-5">
           <span class="iconBackground"></span>
           <div class="col-12 col-md-6">
               <div class="image-wrapper">
                 <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-                <strong>Stockton Programming Assignments</strong></h4>
+                  <strong>Stockton Programming Assignments</strong>
+                </h4>
                 <div class="project-href">
                   <a href="https://github.com/ColinSather/Stockton_Assignments" target="_blank">
                     View this project's source code
@@ -417,8 +542,9 @@
     </div>
   </section>
 
-  <!--Contact Info Section-->
   <br>
+
+  <!--Contact Info Section-->
   <section id="contact" class="call-section-padding">    
     <div class="container spc">
       <!--Contact Form-->
