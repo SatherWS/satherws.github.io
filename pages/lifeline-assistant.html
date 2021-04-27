@@ -10,19 +10,18 @@
   
   <!--Main CSS-->
   <link rel="stylesheet" href="../assets/css/bootstrap.css" >
-  <link rel="stylesheet" href="../assets/css/main.css" >
   <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/main.css" >
   <link rel="stylesheet" href="../assets/css/timeline.css">
   <link rel="stylesheet" href="../assets/css/project.css">
 </head>
 <body>
-    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-md">
         <div class="container nav-max">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="col-md-6">
                 <a href="../index.html" class="navbar-brand">
-                    <h1 class="logo">Colin Sather</h1>
+                    Colin Sather
                 </a>       
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
@@ -32,22 +31,22 @@
                 <div class="collapse navbar-collapse text-right" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
                     <li class="nav-item">
-                    <a class="nav-link" href="#feature">
+                    <a class="nav-link" href="../index.html#feature">
                         About
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="Sather_Resume_Web_Version.pdf" target="_blank">
+                    <a class="nav-link" href="../files/Sather_Resume_Web_Version.pdf" target="_blank">
                         Resume
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#feature">
+                    <a class="nav-link" href="../index.html#feature">
                         Skills
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#feature">
+                    <a class="nav-link" href="../index.html#feature">
                         Portfolio
                     </a>
                     </li>
@@ -55,7 +54,7 @@
                     <a class="nav-link" target="_blank" href="https://github.com/colinsather">GitHub</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#contact">
+                    <a class="nav-link" href="../index.html#contact">
                         Contact
                     </a>
                     </li>
@@ -67,12 +66,54 @@
     <div class="project-header">
         <div class="center-panel-p">
             <h1>Assurance Wireless Web App Re-development</h1>
+            <br>
+            <div class="header-button">
+                <a href="files/Sather_Resume_2021.pdf" target="_blank" class="btn btn-common btn-lg">WATCH DEMO VIDEO</a>
+            </div>
         </div>
     </div>
-    <div class="content-area">        
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque esse necessitatibus. Dolorem quidem expedita nam dolore alias quis explicabo autem nostrum eveniet? Distinctio consequuntur voluptate, dicta perspiciatis velit voluptatum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque esse necessitatibus. Dolorem quidem expedita nam dolore alias quis explicabo autem nostrum eveniet? Distinctio consequuntur voluptate, dicta perspiciatis velit voluptatum?</p>
+    <div class="content-area">
+        <h4 class="title-hl">OVERVIEW</h4>
+        <section class="underline"></section>        
+        <p>My team and I built this site for a school project. 
+            We were tasked with creating a software application for a business, we chose the company Assurance Wireless.
+            The problem Assurance Wireless was having was that they kept getting <a href="#">lifeline applications</a> from addresses that did not exist.
+            This wasted a lot of time because employees of the company needed to manually check the addresses of online applications for their free services.
+            Also one of the technical leads of the company needed a better interface for processing applications. As a bonus feature we decided to attempt to implement
+            a customer support chatroom.
+        </p>
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque esse necessitatibus. Dolorem quidem expedita nam dolore alias quis explicabo autem nostrum eveniet? Distinctio consequuntur voluptate, dicta perspiciatis velit voluptatum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque esse necessitatibus. Dolorem quidem expedita nam dolore alias quis explicabo autem nostrum eveniet? Distinctio consequuntur voluptate, dicta perspiciatis velit voluptatum?</p>
+        <h4 class="title-hl">FEATURES</h4>
+        <section class="underline"></section>
+        <p><b>GPS API Integration via GeoPy</b></p>
+        <p>This was the most important feature we've implemented. This feature takes the address that was inputted by the user and checks if it has valid gps coordinates.
+            If the address does not produce valid GPS coordinates the user will receive an error and not be able to submit their lifeline application.
+        </p>
+        <br>
+        <p><b>Application Processing Interface</b></p>
+
+        <br>
+        <p><b>Customer Support Chatroom</b></p>
+        <br>
+        <h4 class="title-hl">TECHNOLOGIES USED</h4>
+        <section class="underline"></section>
+        <div class="row mb-5">
+            <div class="col-12 col-md-6">
+                <p><b>BACKEND TECHNOLOGIES</b></p>
+                <p>Debian Version: 10.5</p>
+                <p>Apache Version: 2.4.38</p>
+                <p>MYSQL Version: 8.0.21</p>
+                <p>PHP Version: 7.3.19-1</p>
+                <p>Python Version: 3.8.5</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p><b>FRONTEND TECHNOLOGIES</b></p>
+                <p>HTML 5</p>
+                <p>CSS 3</p>
+                <p>Bootstrap CSS</p>
+                <p>Javascript ES6</p>
+            </div>
+        </div>
     </div>
 
     <!-- Preloader 

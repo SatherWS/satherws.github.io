@@ -5,25 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Colin Sather</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
   <!-- Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 
   <!--Main CSS-->
-  <link rel="stylesheet" href="assets/css/main.css" >
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <link rel="stylesheet" href="assets/css/timeline.css">
-  <link rel="stylesheet" href="assets/css/project.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.css" >
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="stylesheet" href="../assets/css/main.css" >
+  <link rel="stylesheet" href="../assets/css/timeline.css">
+  <link rel="stylesheet" href="../assets/css/project.css">
 </head>
 <body>
-    <header id="header-wrap">
-    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="col-md-6">
-                <a href="index.html" class="navbar-brand">Colin Sather</a>       
+                <a href="../index.html" class="navbar-brand">Colin Sather</a>       
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
                 </button>
@@ -32,22 +30,22 @@
                 <div class="collapse navbar-collapse text-right" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
                     <li class="nav-item">
-                    <a class="nav-link" href="#feature">
+                    <a class="nav-link" href="../index.html#feature">
                         About
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="Sather_Resume_Web_Version.pdf" target="_blank">
+                    <a class="nav-link" href="../files/Sather_Resume_Web_Version.pdf" target="_blank">
                         Resume
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#feature">
+                    <a class="nav-link" href="../index.html#feature">
                         Skills
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#feature">
+                    <a class="nav-link" href="../index.html#feature">
                         Portfolio
                     </a>
                     </li>
@@ -55,7 +53,7 @@
                     <a class="nav-link" target="_blank" href="https://github.com/colinsather">GitHub</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#contact">
+                    <a class="nav-link" href="../index.html#contact">
                         Contact
                     </a>
                     </li>
@@ -65,30 +63,69 @@
         </div>  
     </nav>
 
-    <div id="hero-area" class="project-header">
-        <div class="center-panel">
+    <div class="project-header">
+        <div class="center-panel-p text-center">
             <h1>Circle K Charity Club Portal Web Application</h1>
+            <br>
+            <div class="header-button">
+                <a href="files/Sather_Resume_2021.pdf" target="_blank" class="btn btn-common btn-lg">WATCH DEMO VIDEO</a>
+            </div>
         </div>
     </div>
-    </header>
+
     <div class="content-area">
-        <h4>Overview</h4>
+        <h4 class="title-hl">OVERVIEW</h4>
+        <div class="underline"></div>
         <p>Stockton university's Circle K chapter was using a public google spreadsheet to track its members service hours. The problem with this process is that the spreadsheet gave inconsistent results due to user error. Club members were required to write their own names and write the name of the project they’ve worked which we're often classified inconsistently.</p>
         <br>
-        <h4>GPS API Integration</h4>
+        <h4 class="title-hl">TECHNOLOGIES USED</h4>
+        <div class="underline"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <p><b>BACKEND TECHNOLOGIES USED</b></p>
+                <p>Django ORM Framework</p>
+                <p>Python Version: 3.8.5</p>
+                <p>Debian Server Version: 10.5</p>
+                <p>Apache Version: 2.4.38</p>
+                <p>MYSQL Database Version: 8.0.21</p>
+            </div>
+            <div class="col-md-6">
+                <p><b>FRONTEND TECHNOLOGIES USED</b></p>
+                <p>HTML 5
+                <p>CSS3 &amp; Bootstrap CSS</p>
+                <p>Javascript ES6</p>
+                <p>jQuery</p>
+            </div>
+        </div>
+        <br>
     </div>
-    <!-- Preloader -->
+
+    <!-- Footer Section Start -->
+    <footer class="copyright">
+        <div class="social-icon">
+            <a class="freelance" target="_blank" href="mailto:satherc@outlook.com">
+            <i class="fa fa-envelope"></i>
+            </a>
+            <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/colin-sather-33b665181/">
+            <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="git" target="_blank" href="https://github.com/SatherWS">
+            <i class="fa fa-git"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Preloader
     <div id="preloader">
         <div class="loader" id="loader-1"></div>
     </div>
+     -->
     <!-- jQuery first, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="../assets/js/jquery-min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.nav.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>

@@ -6,24 +6,23 @@
   <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <title>Colin Sather</title>
   <link rel="shortcut icon" href="favicon.png" >
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="assets/css/bootstrap.css">
   <!-- Icons-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
   <!--Main CSS-->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/timeline.css">
 </head>
 <body>
   <!-- Brand and toggle get grouped for better mobile display -->
-  <nav class="navbar navbar-expand-md">
+  <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
     <div class="container nav-max">
         <div class="col-md-6">
           <a href="index.html" class="navbar-brand"> 
-            <h1 class="logo">Colin Sather</h1>
+            Colin Sather
           </a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" 
           	data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" 
@@ -76,13 +75,13 @@
           <ul>
             <li><a href="#feature">Click here to see some projects I've worked on</a></li>
           </ul>
-	  <!-- Used for feature testing
+          <!-- Used for feature testing
           <form name="search" action="cgi-bin/test.py" method="get">
             Search: <input type="text" name="searchbox">
             <input type="submit" value="Submit">
           </form>
           <br> 
-	  -->
+          -->
           <div class="header-button">
             <a href="files/Sather_Resume_2021.pdf" target="_blank" class="btn btn-common btn-lg">View Resume</a>
           </div>
@@ -108,7 +107,7 @@
         <h3>Hello, my name is Colin</h3>
         <div class="u-line"></div>
         <p class="serve-desc">
- 	<strong class="somespc">
+ 	      <strong class="somespc">
           I enjoy building data intensive backend infastructures, as well as clean user experiences for web based applications.                   
         </strong>
 
@@ -142,129 +141,44 @@
   <section class="timeline3 cid-s7SZ0UvBBv" id="timeline3-2">
     <div class="container mt-4">
       <div class="timelines-container">
-        <!-- NEW DESIGN FOR PAGINATION TODO add class 'align-center' to each project row (projects 1 & 2 only) -->
-          
-          <!-- 1. SCTMS Project and Content Management System -->
-          <div class="row timeline-element first-separline mb-5 align-center">
-            <div class="timeline-date col-12">
-                <div class="timeline-date-wrapper">
-                </div>
-            </div>
-            <span class="iconBackground"></span>
-            <div class="col-12 col-md-6">
-              <div class="timeline-text-wrapper">
-                  <h4 class="title-hl mb-4">
-                    <strong>SCTMS Project &amp; Content Management System</strong>
-                  </h4>
-                  <p class="timeline-header">
-                    <b>PROJECT DESCRIPTION</b>
-                  </p>  
-                  <section class="underline"></section>
-                  <p class="mbr-text mbr-fonts-style display-7">A productivity and project management web application platform. 
-                    The purpose of this platform is to provide users with an intuitive system for managing, 
-                    sharing and organizing tasks and or project notes.</p>
-                  <div class="video-link-container">
-                    <a class="video-link" href="pages/sctms.html" onclick="alert('Video demo comming soon')">
-                      Read more here
-                      <i class="fa fa-angle-double-right"></i>
-                    </a>
-                  </div>
-                    
-                  <!--
-                  <br>
-                  <a href="swoop.html">
-                    <button class="btn btn-common2 form-control">Read More</button>
-                  </a>
-                  -->
-                </div>
-              </div>
-              <div class="col-12 col-md-6">
-                  <div class="image-wrapper">
-                      <a href="assets/images/multi-device-template-edit.jpeg">
-                        <img src="assets/images/multi-device-template-edit.jpeg" title="">
-                      </a><div class="project-href">
-                        <a href="#" onclick="alert('Source code will be available soon')">
-                          View this project's source code
-                        </a>
-                      </div>
-                      <div class="project-href">
-                        <a href="https://swoop.team" target="_blank">
-                          Visit the live website
-                        </a>
-                      </div>
-                      
-  
-                  </div>
-              </div>
-              
-          </div>
-          <!-- 2. Lifeline Assistant Senior Capstone Project -->
-          <div class="row timeline-element first-separline mb-5 align-center">
-            <div class="timeline-date col-12">
-                <div class="timeline-date-wrapper">
-                </div>
-            </div>
-            <span class="iconBackground"></span>
-            <div class="col-12 col-md-6">
-                <div class="timeline-text-wrapper">
-                  <h4 class="title-hl mb-4">
-                    <strong>Lifeline Assistant Senior Capstone Project</strong>
-                  </h4><p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
-                  <section class="underline"></section>
-                  <p class="mbr-text mbr-fonts-style display-7">Assurance Wireless needed a better system for tracking 
-                    who has been accepted or denied for their free services. 
-                    Features include a lifeline application processing console, 
-                    a customer support chatroom and GPS API integrations.</p>
-                  <div class="video-link-container">
-                    <a class="video-link" href="pages/lifeline-assistant.html">
-                      Read more here
-                      <i class="fa fa-angle-double-right"></i>
-                    </a>
-                  </div>
-                    <!--
-                    <br>
-                    <a href="/assurance.html">
-                      <button class="btn btn-common2 form-control">Read More</button>
-                    </a>
-                    -->
-                  </div>
-                </div><div class="col-12 col-md-6">
-                  <div class="image-wrapper">
-                      
-                        <a href="assets/images/aw_tablet_view.png">
-                          <img src="assets/images/aw_tablet_view.png" alt="Mobirise" title="">
-                        </a>
-                        <br>
-                        <div class="project-href">
-                          <a href="https://github.com/ColinSather/Assurance_Wireless" target="_blank">
-                            View this project's source code
-                          </a>
-                        </div>
-                        <div class="project-href">
-                          <a href="http://flask-env.eba-rnr2hxxx.us-east-2.elasticbeanstalk.com/logout" target="_blank">
-                            Visit the live website
-                          </a>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-            </div>
-
-      <!-- OLD DESIGN START -->
         <!-- 1. SCTMS Project and Content Management System -->
-        <div class="row timeline-element first-separline mb-5">
-            <div class="timeline-date col-12">
-                <div class="timeline-date-wrapper">
+        <div class="row timeline-element first-separline mb-5 align-center">
+          <div class="timeline-date col-12">
+              <div class="timeline-date-wrapper">
+              </div>
+          </div>
+          <span class="iconBackground"></span>
+          <div class="col-12 col-md-6">
+            <div class="timeline-text-wrapper">
+                <h4 class="title-hl mb-4">
+                  <strong>SCTMS Project &amp; Content Management System</strong>
+                </h4>
+                <p class="timeline-header">
+                  <b>PROJECT DESCRIPTION</b>
+                </p>  
+                <section class="underline"></section>
+                <p class="mbr-text mbr-fonts-style display-7">A productivity and project management web application platform. 
+                  The purpose of this platform is to provide users with an intuitive system for managing, 
+                  sharing and organizing tasks and or project notes.</p>
+                <div class="video-link-container">
+                  <a class="video-link" href="pages/sctms.html">
+                    Read more here
+                    <i class="fa fa-angle-double-right"></i>
+                  </a>
                 </div>
+                <!--
+                <br>
+                <a href="swoop.html">
+                  <button class="btn btn-common2 form-control">Read More</button>
+                </a>
+                -->
+              </div>
             </div>
-            <span class="iconBackground"></span>
             <div class="col-12 col-md-6">
                 <div class="image-wrapper">
-                    <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-			                <strong>SCTMS Project & Content Management System</strong>
-		                </h4>
-                    <div class="project-href">
+                    <a href="assets/images/multi-device-template-edit.jpeg">
+                      <img src="assets/images/multi-device-template-edit.jpeg" title="">
+                    </a><div class="project-href">
                       <a href="#" onclick="alert('Source code will be available soon')">
                         View this project's source code
                       </a>
@@ -274,103 +188,62 @@
                         Visit the live website
                       </a>
                     </div>
-                    <a href="assets/images/multi-device-template-edit.jpeg">
-                      <img src="assets/images/multi-device-template-edit.jpeg" title="">
-                    </a>
                 </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="timeline-text-wrapper">
-                <p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>  
-                <section class="underline"></section>
-                  <p class="mbr-text mbr-fonts-style display-7">A productivity and project management web application platform. 
-                    The purpose of this platform is to provide users with an intuitive system for managing, 
-                    sharing and organizing tasks and or project notes.</p>
-                  <div class="video-link-container">
-                    <a class="video-link" href="files/videos/test.mp4">Read more here</a>
-                  </div>
-                  <p><b>BACKEND TECHNOLOGIES USED</b></p>
-                  <section class="underline"></section>
-                  <p>Debian Version: 10.5</p>
-                  <p>Apache Version: 2.4.38</p>
-                  <p>MYSQL Version: 8.0.21</p>
-                  <p>PHP Version: 7.3.19-1</p>
-                  <p>Python Version: 3.8.5</p>
-                  <br>
-                  <p><b>FRONTEND TECHNOLOGIES USED</b></p>
-                  <section class="underline"></section>
-                  <p>HTML5, CSS3 &amp; Javascript</p>
-                  <p>Bootstrap Framework</p>
-                  <!--
-                  <br>
-                  <a href="swoop.html">
-                    <button class="btn btn-common2 form-control">Read More</button>
-                  </a>
-                  -->
-              </div>
             </div>
         </div>
 
         <!-- 2. Lifeline Assistant Senior Capstone Project -->
-        <div class="row timeline-element first-separline mb-5">
-            <div class="timeline-date col-12">
-                <div class="timeline-date-wrapper">
+        <div class="row timeline-element first-separline mb-5 align-center">
+          <div class="timeline-date col-12">
+              <div class="timeline-date-wrapper">
+              </div>
+          </div>
+          <span class="iconBackground"></span>
+          <div class="col-12 col-md-6">
+              <div class="timeline-text-wrapper">
+                <h4 class="title-hl mb-4">
+                  <strong>Lifeline Assistant Senior Capstone Project</strong>
+                </h4><p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
+                <section class="underline"></section>
+                <p class="mbr-text mbr-fonts-style display-7">Assurance Wireless needed a better system for tracking 
+                  who has been accepted or denied for their free services. 
+                  Features include a lifeline application processing console, 
+                  a customer support chatroom and GPS API integrations.</p>
+                <div class="video-link-container">
+                  <a class="video-link" href="pages/lifeline-assistant.html">
+                    Read more here
+                    <i class="fa fa-angle-double-right"></i>
+                  </a>
                 </div>
-            </div>
-            <span class="iconBackground"></span>
-            <div class="col-12 col-md-6">
-              <div class="image-wrapper">
-                  <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-                    <strong>Lifeline Assistant Senior Capstone Project</strong>
-                  </h4>
-                    <div class="project-href">
-                      <a href="https://github.com/ColinSather/Assurance_Wireless" target="_blank">
-                        View this project's source code
-                      </a>
-                    </div>
-                    <div class="project-href">
-                      <a href="http://flask-env.eba-rnr2hxxx.us-east-2.elasticbeanstalk.com/logout" target="_blank">
-                        Visit the live website
-                      </a>
-                    </div>
-                    <a href="assets/images/aw_tablet_view.png">
-                      <img src="assets/images/aw_tablet_view.png" alt="Mobirise" title="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="timeline-text-wrapper">
-                  <p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
-                  <section class="underline"></section>
-                  <p class="mbr-text mbr-fonts-style display-7">Assurance Wireless needed a better system for tracking 
-                    who has been accepted or denied for their free services. 
-                    Features include a lifeline application processing console, 
-                    a customer support chatroom and GPS API integrations.</p>
+                  <!--
                   <br>
-                  <p><b>BACKEND TECHNOLOGIES USED</b></p>
-                    <div class="underline"></div>
-                    <p>Python Version: 3.8.5</p>
-                    <p>AJAX Version: 3.3.1</p>
-                    <p>Flask Framework: 3.3.1</p>
-                    <p>AWS Linux EC2</p>
-                    <p>MYSQL Version: 5.5</p>
-                    <br>
-                    <p><b>FRONTEND TECHNOLOGIES USED</b></p>
-                    <section class="underline"></section>
-                    <p>HTML5, CSS3 &amp; Bootstrap</p>
-                    <p>Javascript &amp; jQuery</p>
-                    <!--
-                    <br>
-                    <a href="/assurance.html">
-                      <button class="btn btn-common2 form-control">Read More</button>
-                    </a>
-                    -->  
+                  <a href="/assurance.html">
+                    <button class="btn btn-common2 form-control">Read More</button>
+                  </a>
+                  -->
+                </div>
+              </div><div class="col-12 col-md-6">
+                <div class="image-wrapper">
+                      <a href="assets/images/aw_tablet_view.png">
+                        <img src="assets/images/aw_tablet_view.png" alt="Mobirise" title="">
+                      </a>
+                      <br>
+                      <div class="project-href">
+                        <a href="https://github.com/ColinSather/Assurance_Wireless" target="_blank">
+                          View this project's source code
+                        </a>
+                      </div>
+                      <div class="project-href">
+                        <a href="http://flask-env.eba-rnr2hxxx.us-east-2.elasticbeanstalk.com/logout" target="_blank">
+                          Visit the live website
+                        </a>
+                      </div>
                   </div>
-            </div>
+              </div>
         </div>
 
         <!-- 3. Charity Club Portal Web Application -->
-        <div class="row timeline-element first-separline mb-5">
+        <div class="row timeline-element first-separline mb-5 align-center">
           <div class="timeline-date col-12">
               <div class="timeline-date-wrapper">
               </div>
@@ -378,48 +251,36 @@
           <span class="iconBackground"></span>
           <div class="col-12 col-md-6">
             <div class="image-wrapper">
-                  <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-                    <strong>Circle K Charity Club Portal Web Application</strong>
-                  </h4>
-                  <div class="project-href">
-                    <a href="https://github.com/ColinSather/Computer_Society" target="_blank">
-                      View this project's source code
-                    </a>
-                  </div>
-                  <div class="project-href">
-                    <!--
-                    <a href="stockton-cs.github.io" target="_blank">
-                      Visit the live website
-                    </a>
-                    -->
-                  </div>
-                  <a href="assets/images/cki-project.jpeg">
-                    <img src="assets/images/cki-project.jpeg" alt="" title="">
-                  </a>
-              </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="timeline-text-wrapper">
+              <h4 class="title-hl mb-4">
+                <strong>Circle K Charity Club Portal Web Application</strong>
+              </h4>
               <p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
               <section class="underline"></section>
               <p class="mbr-text mbr-fonts-style display-7">A charity club needed a more standardized way 
                 of tracking service hours contributed by their club members.
-                 My proposed web application allows users to simply sign on and 
-                 record their services hours with a click of a button.
+                My proposed web application allows users to simply sign on and 
+                record their services hours with a click of a button.
               </p>
+              <div class="video-link-container">
+                <a class="video-link" href="pages/circlek.html">
+                  Read more here
+                  <i class="fa fa-angle-double-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="timeline-text-wrapper">
+              
+              <a href="assets/images/cki-project.jpeg">
+                <img src="assets/images/cki-project.jpeg" alt="" title="">
+              </a>
               <br>
-              <p><b>BACKEND TECHNOLOGIES USED</b></p>
-              <section class="underline"></section>
-              <p>Django ORM Framework</p>
-              <p>Python Version: 3.8.5</p>
-              <p>Debian Server Version: 10.5</p>
-              <p>Apache Version: 2.4.38</p>
-              <p>MYSQL Database Version: 8.0.21</p>
-              <br>
-              <p><b>FRONTEND TECHNOLOGIES USED</b></p>
-              <section class="underline"></section>
-              <p>HTML5, CSS3 &amp; Bootstrap</p>
-              <p>Javascript &amp; jQuery</p>
+              <div class="project-href">
+                <a href="https://github.com/ColinSather/Computer_Society" target="_blank">
+                  View this project's source code
+                </a>
+              </div>
               <!--
               <br>
               <a href="/circlek.html">
@@ -431,85 +292,70 @@
         </div>
 
         <!-- 4. Stockton Computer Science Club Web Application -->
-        <div class="row timeline-element first-separline mb-5">
-            <div class="timeline-date col-12">
-                <div class="timeline-date-wrapper">
-                  <!--
-                    <p class="mbr-timeline-date display-7">June 2019</p>
-                    -->
-                </div>
-            </div>
-            <span class="iconBackground"></span>
-            <div class="col-12 col-md-6">
-              <div class="image-wrapper">
-                    <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
-                      <strong>Stockton Computer Science Club Web Application</strong>
-                    </h4>
-                    <div class="project-href">
-                      <a href="https://github.com/ColinSather/Computer_Society" target="_blank">
-                        View this project's source code
-                      </a>
-                    </div>
-                    <div class="project-href">
-                      <a href="https://stockton-cs.github.io" target="_blank">
-                        Visit the live website
-                      </a>
-                    </div>
-                    <a href="assets/images/Stockton_Gradient_UI.png">
-                      <img src="assets/images/Stockton_Gradient_UI.png" alt="Mobirise" title="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="timeline-text-wrapper">
+        <div class="row timeline-element first-separline mb-5 align-center">
+          <div class="timeline-date col-12">
+              <div class="timeline-date-wrapper">
+                <!--
+                  <p class="mbr-timeline-date display-7">June 2019</p>
+                  -->
+              </div>
+          </div>
+          <span class="iconBackground"></span>
+          <div class="col-12 col-md-6">
+            <div class="timeline-text-wrapper">
+                <h4 class="title-hl mb-4">
+                <strong>Stockton Computer Science Club Web Application</strong>
+                </h4>
                 <p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
                 <section class="underline"></section>
                 <p class="mbr-text mbr-fonts-style display-7">I volunteered to build a 
                   full stack web application for Stockton University's computer science club. 
                   This website provides a template to display relevant club information and features 
-                  a voting application that allows members to decide on various subjects remotely.</p>
-                <br>
-                <p><b>BACKEND TECHNOLOGIES USED</b></p>
-                <section class="underline"></section>
-                <p>Debian Server Version: 10.5</p>
-                <p>Apache Version: 2.4.38</p>
-                <p>MYSQL Database Version: 8.0.21</p>
-                <p>PHP Version: 7.3.19-1</p>
-                <br>
-                <p><b>FRONTEND TECHNOLOGIES USED</b></p>
-                <section class="underline"></section>
-                <p>HTML5, CSS3 &amp; Bootstrap</p>
-                <p>Javascript &amp; jQuery</p>
-                <!--
-                <br>
-                <a href="/compsci-club.html">
-                  <button class="btn btn-common2 form-control">Read More</button>
-                </a>
-                -->
-              </div>
+                  a voting application that allows members to decide on various subjects remotely.
+                </p>
+                <div class="video-link-container">
+                  <a class="video-link" href="pages/compsci-club.html">
+                    Read more here
+                    <i class="fa fa-angle-double-right"></i>
+                  </a>
+                </div>
             </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="image-wrapper">
+              <a href="assets/images/Stockton_Gradient_UI.png">
+                <img src="assets/images/Stockton_Gradient_UI.png" alt="Mobirise" title="">
+              </a>
+              <br>
+              <div class="project-href">
+                <a href="https://github.com/ColinSather/Computer_Society" target="_blank">
+                  View this project's source code
+                </a>
+              </div>
+              <div class="project-href">
+                <a href="https://stockton-cs.github.io" target="_blank">
+                  Visit the live website
+                </a>
+              </div>
+
+              <!--
+              <br>
+              <a href="/compsci-club.html">
+                <button class="btn btn-common2 form-control">Read More</button>
+              </a>
+              -->
+            </div>
+          </div>
         </div>
 
         <!-- 5. Various Stockton Programming Assignments -->
-        <div class="row timeline-element first-separline mb-5">
+        <div class="row timeline-element first-separline mb-5 align-center">
           <span class="iconBackground"></span>
           <div class="col-12 col-md-6">
-              <div class="image-wrapper">
-                <h4 class="mbr-timeline-title mbr-fonts-style mb-4 display-5">
+              <div class="timeline-text-wrapper">
+                <h4 class="title-hl mb-4">
                   <strong>Stockton Programming Assignments</strong>
                 </h4>
-                <div class="project-href">
-                  <a href="https://github.com/ColinSather/Stockton_Assignments" target="_blank">
-                    View this project's source code
-                  </a>
-                </div>
-                <a href="assets/images/coding.jpg">
-                  <img src="assets/images/coding.jpg" alt="Stockton Programming" title="">
-                </a>
-              </div>
-          </div>
-          <div class="col-12 col-md-6">
-              <div class="timeline-text-wrapper">
                 <p class="timeline-header"><b>PROJECT DESCRIPTION</b></p>
                 <section class="underline"></section>
                 <p class="mbr-text mbr-fonts-style display-7">
@@ -517,26 +363,32 @@
                   The programs were mostly written in Java but, many programs were coded in Python.
                   Click the source code link to read more about these projects on GitHub.
                 </p>
-                <br>
-                <p><b>COURSES COMPLETED</b></p>
-                <section class="underline"></section>  
-                <p>Object Oriented Programming I/II</p>
-                <p>Data Structures & Algorithms I/II</p>
-                <p>Software & Security Engineering</p>
-                <p>Database Systems</p>
-                <p>Knowledge Discovery & Data Mining</p>
-                <p>Computer Networking</p>
-                <p>Web Application Engineering</p>
-                <p>Cryptography & Data Security</p>
-                <p>Computer Organization</p>
-                <p>Computer Operating Systems</p>
-                <!--
-                <br>
-                <a href="university.html">
-                  <button class="btn btn-common2 form-control">Read More</button>
-                </a>
-                -->
+                <div class="video-link-container">
+                  <a class="video-link" href="pages/university.html">
+                    Read more here
+                    <i class="fa fa-angle-double-right"></i>
+                  </a>
+                </div>
               </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="image-wrapper">
+              <a href="assets/images/coding.jpg">
+                <img src="assets/images/coding.jpg" alt="Stockton Programming" title="">
+              </a>
+              <br>
+              <div class="project-href">
+                <a href="https://github.com/ColinSather/Stockton_Assignments" target="_blank">
+                  View this project's source code
+                </a>
+              </div>
+              <!--
+              <br>
+              <a href="university.html">
+                <button class="btn btn-common2 form-control">Read More</button>
+              </a>
+              -->
+            </div>
           </div>
         </div>
       </div>
@@ -567,8 +419,9 @@
     </section> 
     </div>   
   </section>
-  <!-- Copyright Section Start -->
-  <div class="copyright">
+
+  <!-- Footer Section Start -->
+  <footer class="copyright">
     <div class="social-icon">
         <a class="freelance" target="_blank" href="mailto:satherc@outlook.com">
           <i class="fa fa-envelope"></i>
@@ -580,7 +433,7 @@
           <i class="fa fa-git"></i>
         </a>
     </div>
-  </div>
+  </footer>
 
   <!-- Preloader 
   <div id="preloader">
