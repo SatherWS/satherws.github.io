@@ -549,8 +549,9 @@ Features/About Section
   vertical-align: middle;
 }
 
-.logo {
+.logo a{
   margin: 1rem!important;
+  font-size: 18pt!important;
 }
 
 .navbar-brand {
