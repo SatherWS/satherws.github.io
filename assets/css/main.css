@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web:600,700");
+h1.logo {
+  margin-bottom: 0!important;
+}
+
 .project-links {
   display: grid;
   grid-template-columns: 1fr 1fr;

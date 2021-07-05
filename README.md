@@ -1,3 +1,3 @@
-# colinsather.github.io
-This is my software engineering portfolio website, it contains project highlights and contact information.
+# colinsather.com
+My personal website, it contains project highlight, contact information and more.
 
